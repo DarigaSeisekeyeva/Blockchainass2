@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Model Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Model Marketplace</h1>
+
+        <!--  New Model -->
+        <h2>List a New AI Model</h2>
+        <form id="listModelForm">
+            <input type="text" id="modelName" placeholder="Model Name" required />
+            <textarea id="modelDescription" placeholder="Model Description" required></textarea>
+            <input type="number" id="modelPrice" placeholder="Price in Ether" required />
+            <button type="submit">List Model</button>
+        </form>
+
+      
+        <h2>Available Models</h2>
+        <div id="modelList"></div>
+
+        <!-- Rate a Model -->
+        <h2>Rate a Model</h2>
+        <form id="rateModelForm">
+            <input type="number" id="modelIdToRate" placeholder="Model ID" required />
+            <input type="number" id="modelRating" placeholder="Rating (0-5)" required />
+            <button type="submit">Rate Model</button>
+        </form>
+
+        <!-- View Model Details -->
+        <h2>View Model Details</h2>
+        <input type="number" id="modelIdToView" placeholder="Enter Model ID to View" />
+        <button id="viewModelButton">View Model</button>
+        <div id="modelDetails"></div>
+
+        <!-- Withdraw Funds -->
+        <h2>Withdraw Funds</h2>
+        <button id="withdrawFundsButton">Withdraw Funds</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
