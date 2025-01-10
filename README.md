@@ -31,7 +31,7 @@ The application integrates a Solidity smart contract to handle core blockchain f
 |----------------------|-------------------------|
 | **Blockchain**       | Ethereum, Solidity      |
 | **Smart Contract IDE** | Remix, Ganache         |
-| **Frontend**         | React.js, Web3.js       |
+| **Frontend**         | Web3.js       |
 | **Wallet Integration** | Metamask              |
 | **Test Environment** | Ganache, Goerli Testnet |
 
