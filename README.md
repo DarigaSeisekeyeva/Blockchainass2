@@ -20,7 +20,7 @@ The application integrates a Solidity smart contract to handle core blockchain f
 - **Model Listing:** AI models can be added with essential details.  
 - **Marketplace View:** The application displays all available AI models in a grid layout.  
 - **Purchase Functionality:** Users can securely buy models using ETH via blockchain transactions.  
-- **Rating System:** Purchased models can be rated (1 to 5 stars).  
+- **Rating System:** Purchased models can be rated (0 to 5 stars).  
 - **Funds Management:** Earnings are accessible to creators for withdrawal.  
 
 ---
